@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-size: 300;
+	font-family: arial;	
+}
+body{
+	background: #ddd;
+}
+form{
+    width: 30%;
+	background:#fff;
+	float: left;
+	margin-left:35%; 
+	padding: 1%;
+	margin-top: 20%;
+}
+.form-iten{
+	width: 100%;
+	float: left;
+	display: inline-flex;
+	
+}
+.form-iten input[type="text"]{
+	padding: 2%;
+	width: 74%;
+	float: left;
+
+}
+.form-iten input[type="submit"]{
+	color: #fff;
+	width: 25%;
+	float: left;
+	padding: 2%;
+	background-color: #cc3030;
+	border:none;
+	cursor: pointer;
+	margin-left: 1%;
+}
+.form-iten input[type="submit"]:hover{
+	background-color: #e21a1a;
+	transition: .7s ease-in-out;
+}
+.tudo{
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 2%;
+	padding: 2%;
+	background-color: #fff;
+	font-size: 17px;
+	opacity: .8;
+}
+h5{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.resultado{
+	width: 100%;
+	float: left;
+    background-color: #b7b3b3;
+    margin-top: 10px;
+    padding: 1%;
+    display: inline-flex;
+
+}
+.resultado p{
+	margin-left: 5px;
+}
+.resultado strong{
+	margin-left: 5px;
+}
