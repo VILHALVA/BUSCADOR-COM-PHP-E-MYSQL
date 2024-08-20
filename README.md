@@ -1,5 +1,5 @@
 # BUSCADOR COM PHP E MYSQL
-👨‍🏫FORMULARIO DE PESQUISA DE NOMES EM HTML, CSS, PHP E MYSQL.
+👨‍🏫FORMULARIO DE PESQUISA DE NOMES COM PHP E MYSQL.
 
 <img src="./IMAGENS/FOTO_1.png" align="center" width="500"> <br>
 <img src="./IMAGENS/FOTO_2.png" align="center" width="500"> <br>
