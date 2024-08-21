@@ -1,7 +1,7 @@
 <?php
-$host     = "localhost";
-$user     = "root";
-$pass     = "";
+$host = "localhost";
+$user = "seu_usuario";
+$pass = "sua_senha";
 $database = "pesquisa";
 
 global $conexao;
