@@ -33,14 +33,19 @@ Este aplicativo é uma simples ferramenta de pesquisa desenvolvida com HTML e PH
      $database = "pesquisa";
      ```
 
-3. **Subindo o Servidor:**
-   - Coloque os arquivos desse diretório em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
+3. **Executando o Aplicativo com Apache:**
+   - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
 
-4. **Acessar o Formulário de Pesquisa:**
-   - Acesse o formulário no navegador visitando [http://localhost/BUSCADOR%20COM%20PHP%20E%20MYSQL/CODIGO/index.php](http://localhost/BUSCADOR%20COM%20PHP%20E%20MYSQL/CODIGO/index.php)
-   - Insira o nome ou termos de pesquisa no campo de texto e clique em "Pesquisar".
+4. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
 
 5. **Visualizar os Resultados:**
+   - Insira o nome ou termos de pesquisa no campo de texto e clique em "Pesquisar".
    - A página `pesquisa.php` será carregada, mostrando o total de desenvolvedores masculinos e femininos, além de exibir os resultados da pesquisa baseada no nome inserido.
 
 6. **Verificar os Resultados:**
